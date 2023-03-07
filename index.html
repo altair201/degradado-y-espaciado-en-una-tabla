@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    html{
+        height: 100%;
+    }
+    body{
+        background:linear-gradient(30deg, royalblue, rgb(5, 0, 68));
+    }
+    table,tr,td {
+        border-collapse: separate;
+	    border: 1px solid black;
+        text-align: center;
+        margin: 100px auto;
+        
+    }
+    #quitar{
+        border: 0px;
+    }
+    td{
+        padding: 15px 50px;
+    }
+    table tr:nth-child(1) td:nth-child(1){
+        background-color: yellow;
+    }
+    table tr:nth-child(1) td:nth-child(2){
+        background-color:violet;
+    }
+    table tr:nth-child(1) td:nth-child(3){
+        background-color: rgb(219, 0, 0);
+    }
+    table tr:nth-child(2) td:nth-child(1){
+        background-color: rgb(245, 124, 12);
+    }
+    table tr:nth-child(2) td:nth-child(2){
+        background-color: rgb(108, 5, 177);
+    }
+    table tr:nth-child(2) td:nth-child(3){
+        background-color: rgb(211, 10, 104);
+    }
+    table tr:nth-child(3) td:nth-child(1){
+        background-color: rgb(216, 70, 2);
+    }
+    table tr:nth-child(3) td:nth-child(2){
+        background-color: rgb(1, 204, 255);
+    }
+    table tr:nth-child(3) td:nth-child(3){
+        background-color: rgb(12, 245, 43);
+    }
+    
+</style>
+<body>
+    <table id="quitar">
+        <tr><td>A</td><td>B</td><td>C</td></tr>
+        <tr><td>AA</td><td>BB</td><td>CC</td></tr>
+        <tr><td>AAA</td><td>BBB</td><td>CCC</td></tr>
+    </table>
+</body>
+</html>
